@@ -14,9 +14,9 @@ export default function App({}: Props) {
   return (
     <div className="flex flex-col z-0">
       <div className="flex flex-col md:flex-row w-full">
-        <div className="flex-auto h-[350px] w-full bg-cover bg-center bg-[url('./images/atv_01.jpg')]"></div>
-        <div className="flex-auto h-[350px] w-full bg-cover bg-center bg-[url('./images/atv_02.jpg')]"></div>
-        <div className="flex-auto h-[350px] w-full bg-cover bg-center bg-[url('./images/atv_03.jpg')]"></div>
+        <div className="flex-auto h-[350px] w-full bg-cover bg-center bg-[url('../public/images/atv_01.jpg')]"></div>
+        <div className="flex-auto h-[350px] w-full bg-cover bg-center bg-[url('../public/images/atv_02.jpg')]"></div>
+        <div className="flex-auto h-[350px] w-full bg-cover bg-center bg-[url('../public/images/atv_03.jpg')]"></div>
       </div>
       <div className="w-full flex flex-col md:flex-row bg-yellow-400">
         <div className="flex flex-col p-6 md:p-10 lg:p-20 gap-6 w-full md:w-2/3">
@@ -27,7 +27,7 @@ export default function App({}: Props) {
             rem, sit distinctio blanditiis qui aliquid.
           </h3>
         </div>
-        <div className="w-full h-[200px] md:h-auto bg-cover bg-center bg-[url('./images/atv.png')]"></div>
+        <div className="w-full h-[200px] md:h-auto bg-cover bg-center bg-[url('../public/images/atv.png')]"></div>
       </div>
       <div className="flex flex-col md:flex-row w-full h-[25rem] bg-gray-900">
         <div className="flex flex-col p-6 md:p-10 lg:p-20 gap-6 w-full md:w-1/2">
@@ -40,7 +40,7 @@ export default function App({}: Props) {
             rem, sit distinctio blanditiis qui aliquid.
           </h3>
         </div>
-        <div className="flex-auto bg-cover bg-center w-full md:w-1/2  bg-[url('./images/atv_04.jpg')]"></div>
+        <div className="flex-auto bg-cover bg-center w-full md:w-1/2  bg-[url('../public/images/atv_04.jpg')]"></div>
         <div className="absolute top-[600px] left-0 h-full flex items-center">
           <div className="text-[7rem] md:text-[10rem] text-4xl text-yellow-400 opacity-20 rotate-90">
             ATV
@@ -48,7 +48,7 @@ export default function App({}: Props) {
         </div>
       </div>
       <div className="flex flex-col-reverse  md:flex-row w-full h-[25rem] bg-gray-900">
-        <div className="flex-auto bg-cover bg-center w-full md:w-1/2  bg-[url('./images/atv_04.jpg')]"></div>
+        <div className="flex-auto bg-cover bg-center w-full md:w-1/2  bg-[url('../public/images/atv_04.jpg')]"></div>
         <div className="flex flex-col p-6 md:p-10 lg:p-20 gap-6 w-full md:w-1/2">
           <h1 className="font-bold text-2xl md:text-3xl text-yellow-400">
             ABOUT US
@@ -62,7 +62,7 @@ export default function App({}: Props) {
       </div>
       <div className="bg-gray-900 h-32"></div>
       <div className="flex flex-col gap-6 md:gap-3 md:flex-row w-full p-6 md:p-16 bg-gray-900">
-        <div className="flex-auto h-[300px] md:h-[500px] w-full bg-cover bg-center bg-[url('./images/map.png')]"></div>
+        <div className="flex-auto h-[300px] md:h-[500px] w-full bg-cover bg-center bg-[url('../public/images/map.png')]"></div>
         <div className="flex-auto h-[300px] md:h-[350px] w-full px-6 md:px-20 flex gap-4 flex-col">
           <h1 className="font-bold text-2xl md:text-3xl text-gray-900 w-fit p-2 md:p-4 bg-yellow-400">
             CONTACT US
